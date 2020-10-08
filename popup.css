@@ -1,0 +1,31 @@
+
+.close-cho{
+    font-size: 34px;
+    font-weight: 200;
+    background: #F44336 !important;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 0px;
+    padding: 6px 6px !important;
+    top: -15px;
+    right: -15px;
+    position: relative;
+    opacity: 1;
+    height: 38px !important;
+
+}
+.close-cho:hover{
+    opacity: 1 !important;
+}
+.close-icon{
+    width: 25px
+}
+.modal-header {
+    border: none;
+}
+button:focus{
+    outline: none;
+}
+.padding-content{
+    padding: 0 30px 40px;
+}
