@@ -655,8 +655,8 @@ main #table {
 }
 
 main .table-row {
-    width: 100%;
-    flex-wrap: wrap;
+    width: 1140px;
+    /*flex-wrap: wrap;*/
     border-top: 1px solid #DAE3EA;
     padding: 20px 30px;
 }
@@ -714,7 +714,7 @@ main .meter span {
 
 /* Checkout */
 
-/*main .checkout-table {
+main .checkout-table {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -761,7 +761,7 @@ main .checkout-table .table-row > *:nth-child(3) * {
 main .checkout-table .table-row > *:nth-child(4) {
     width: 10%;
     text-align: right;
-}*/
+}
 
 .checkout-price button {
     padding: 10px 30px;
@@ -861,7 +861,7 @@ main .order-table .table-row > *:nth-child(4) {
 
 
 /* Shop list */
-/*main .cards {
+main .cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -912,7 +912,7 @@ main .card img {
 main .card .description p {
     font-size: 14px;
     margin-top: 0;
-}*/
+}
 
 main .shoplist-search {
     width: 100%;
@@ -981,14 +981,21 @@ main .order-accepted a {
 }
 
 /* Payment Method Page << MERGED WITH CHECKOUT PAGE!!! >>*/
-.place-order {
+/*.place-order {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: 30px;width: 100%;
+    margin-top: 30px;
+}*/
+.place-order{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: inherit;
 }
-
+.place-order .cust-notes,.place-order .mobile-number{
+	width: auto;
+}
 .place-order a {
     margin-top: 25px;
     padding: 16px 36px; 
@@ -1282,7 +1289,7 @@ footer .main-button {
     bottom: 0;
 }
 
-@media only screen and (max-width: 1400px) {
+/*@media only screen and (max-width: 1400px) {
     .wrapper, footer div {
         width: 80%;
     }
@@ -1553,7 +1560,7 @@ footer .main-button {
         display: block;
     }
 
-    /*main .cards {
+    main .cards {
         flex-direction: column;
     }
 
@@ -1607,7 +1614,7 @@ footer .main-button {
 
     main .card .main-button, main .card span{
         display: none;
-    }*/
+    }
 
 }
 
@@ -1727,9 +1734,9 @@ footer .main-button {
         width: 60px;
     }
 
-    html, body {
+    /*html, body {
         overflow-x: hidden;
-    }
+    }*/
 
     .label-inline {
         padding-left: 20px;
@@ -1849,9 +1856,9 @@ footer .main-button {
     textarea {
         height: 51px;
     }
-}
+}*/
 
-@media only screen and (max-width: 550px) {
+/*@media only screen and (max-width: 550px) {
     main .order-table .table-header p:nth-child(2) {
         display: none;
     }
@@ -1912,45 +1919,4 @@ footer .main-button {
     .wrapper, footer div, .banner .banner-content .company-info {
         width: 90%;
     }
-}
-
-
-/*===================================================*/
-/*=============mohit css start here==================*/
-/*===================================================*/
-.hr-line{
-    float: right; display: block;
-}
-.cust-form-mian{
-    display: flex;justify-content: center;align-items: center;
-}
-.custom-dropdown-main{
-    display: flex;justify-content: space-around;
-}
-.w-lg-50{
-    width: 50% !important;
-}
-@media only screen and (max-width: 560px){
-    .cust-button{
-        padding: 5px 0;
-        width: 100%;
-        font-size: 18px;
-        margin: 0;
-    }
-}
-@media only screen and (max-width: 480px){
-    .cust-button{
-        padding: 5px 0;
-        width: 100%;
-        font-size: 18px;
-        margin: 0;
-    }
-}
-@media only screen and (max-width: 320px){
-    .cust-button{
-        padding: 5px 0;
-        width: 100%;
-        font-size: 18px;
-        margin: 0;
-    }
-}
+}*/
